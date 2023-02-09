@@ -16,7 +16,7 @@ function NavBar() {
     return (
         <nav className="bg-white fixed z-10 w-full flex flex-col lg:flex-row items-center justify-evenly px-2 py-6">
             <div className=''>
-                <Image src='/images/logo1.png' width={100} height={100}/>
+                <Image src='/images/logo1.png' width={100} height={100} alt='Logo'/>
             </div>
             <div className='w-full justify-center flex flex-col items-start lg:hidden' onClick={()=>setShowMenu(!showMenu)}>
                 <HiOutlineMenu color='white' size={40} />

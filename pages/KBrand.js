@@ -19,7 +19,7 @@ const KBrand = () => (
                     <p className="mb-6 w-3/4">
                         FARM FORESTRY AND AFFORESTATION PROGRAMME
                         <br />
-                        The programme’s development objective, enhancing the incomes and livelihoods of Kenyan smallholder farmers through tree value chains is premised on the mutualism between agriculture and forestry
+                        The programme`s development objective, enhancing the incomes and livelihoods of Kenyan smallholder farmers through tree value chains is premised on the mutualism between agriculture and forestry
                     </p>
                     <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
    
@@ -46,7 +46,7 @@ const KBrand = () => (
                         <p className="mb-6 w-3/4">
                             KILIMO TALII
                         <br />
-                        Kilimo Talii is a fabulous all-inclusive rural retreat, It’s best for family holidays and an ideal place for chilling out, parties and social gatherings. We have expansive well-manicured gardens that can carry out all sorts of events; weddings, birthday parties, graduations etc
+                        Kilimo Talii is a fabulous all-inclusive rural retreat, It`s best for family holidays and an ideal place for chilling out, parties and social gatherings. We have expansive well-manicured gardens that can carry out all sorts of events; weddings, birthday parties, graduations etc
                         </p>
                         <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
 
@@ -62,7 +62,7 @@ const KBrand = () => (
                     <p className="mb-6 w-3/4">
                         KILIMO GRAND RESORT
                         <br />
-                        It’s one of those places in Nairobi where the refined luxury of internationally acclaimed cuisine and exceptional room amenities mingles effortlessly with lush vegetation amidst a huge swimming pool and kids garden. This is where you can’t help but celebrate living
+                        It`s one of those places in Nairobi where the refined luxury of internationally acclaimed cuisine and exceptional room amenities mingles effortlessly with lush vegetation amidst a huge swimming pool and kids garden. This is where you can`t help but celebrate living
                     </p>
                         <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
                     </div>

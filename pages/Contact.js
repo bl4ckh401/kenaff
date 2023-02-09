@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Parallax from "./components/Parallax";
 import { FaFax, FaMailBulk, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
+import Image from "next/image";
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -110,9 +111,9 @@ const ContactUs = () => {
                     </div>
                 </form>
                 <div className="w-1/2">
-                    <img
+                    <Image width={250} height={400}
                     className="w-full h-full object-cover rounded-lg"
-                    src='https://via.placeholder.com/600/771796'
+                    src='/WebsitePhotos/WhatsAppImage2023-02-07at7.06.58PM.jpeg'
                     alt='Kenaff Strategic Plan'
                 />
                 </div>
