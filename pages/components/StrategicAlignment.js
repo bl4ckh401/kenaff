@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 
 const SDGs = [
@@ -118,7 +119,7 @@ const StrategicAlignment = () => {
                     <motion.div key={sdg.id}
                         whileHover={{ scale: 1.05 }}
                         className="bg-white mt-2 mx-2 rounded-lg w-3/12 flex flex-wrap flex-col justify-center items-center shadow-lg p-10 cursor-pointer">
-                        <img src={sdg.image} alt={sdg.title} className="h-32 w-32 mb-5" />
+                        <Image width={250} height={250} src={sdg.image} alt={sdg.title} className="h-32 w-32 mb-5" />
                         <h2 className="text-lg text-center font-bold">{sdg.title}</h2>
                         <div className="pointer-events-none bg-white justify-center items-center flex flex-col">
                             <h2 className="text-base text-center">{sdg.description}</h2>
@@ -127,7 +128,7 @@ const StrategicAlignment = () => {
                     <motion.div key={sdg.id} 
                      whileHover={{ scale: 1.05 }}
                      className="bg-white mt-2 mx-2 rounded-lg w-3/12 flex flex-wrap flex-col justify-center items-center shadow-lg p-10 cursor-pointer">
-                        <img src={sdg.image} alt={sdg.title} className="h-32 w-32 mb-5" />
+                        <Image width={250} height={250} src={sdg.image} alt={sdg.title} className="h-32 w-32 mb-5" />
                         <h2 className="text-lg text-center font-bold">{sdg.title}</h2>
                         <div className="pointer-events-none bg-white justify-center items-center flex flex-col">
                             <h2 className="text-base text-center">{sdg.description}</h2>

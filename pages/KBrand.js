@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Parallax from "./components/Parallax";
 
 const KBrand = () => (
@@ -12,7 +13,7 @@ const KBrand = () => (
                 <h1 className="text-2xl font-bold mb-6">Home</h1>
                 <h2 className="text-xl font-bold mb-6">KENAF Brands</h2>
                 <div className="flex justify-center items-center flex-row">
-                <img src="https://via.placeholder.com/150x150" alt="conservation image" className="mb-6" />
+                    <Image width={400} height={400} src="/DamacrestPPL.webp" alt="conservation image" className="mb-6" />
                 <div className="p-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">CONSERVATION</h3>
                     <p className="mb-6 w-3/4">
@@ -26,7 +27,7 @@ const KBrand = () => (
                 
                 </div>
                 <div className="flex justify-center items-center flex-row">
-                    <img src="https://via.placeholder.com/150x150" alt="education and technology image" className="mb-6" />
+                    <Image width={400} height={400} src="/DamacrestPPL.webp" alt="education and technology image" className="mb-6" />
                     <div className="p-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">EDUCATION & TECHNOLOGY</h3>   
                     <p className="mb-6 w-3/4">
@@ -39,7 +40,7 @@ const KBrand = () => (
                     </div>
                 </div>
                 <div className="flex justify-center items-center flex-row">
-                    <img src="https://via.placeholder.com/150x150" alt="luxury image" className="mb-6" />
+                    <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
                     <div className="p-4">
                         <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">LUXURY</h3>
                         <p className="mb-6 w-3/4">
@@ -54,7 +55,7 @@ const KBrand = () => (
                 </div>
                
                 <div className="flex justify-center items-center flex-row">
-                    <img src="https://via.placeholder.com/150x150" alt="luxury image" className="mb-6" />
+                    <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
                     <div className="p-4">
 
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">LUXURY</h3>
@@ -68,7 +69,7 @@ const KBrand = () => (
                 </div>
                 
                 <div className="flex justify-center items-center flex-row">
-                <img src="https://via.placeholder.com/150x150" alt="farmer's voice image" className="float-left mb-6 h-full" />
+                    <Image width={400} height={400} src="/DamacrestPPL.webp" alt="farmer's voice image" className="float-left mb-6 h-full" />
                 <div className="px-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">FARMER'S VOICE</h3>
                     <p className="mb-6 w-3/4">
