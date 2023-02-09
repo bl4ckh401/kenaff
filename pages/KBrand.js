@@ -71,7 +71,7 @@ const KBrand = () => (
                 <div className="flex justify-center items-center flex-row">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="farmer's voice image" className="float-left mb-6 h-full" />
                 <div className="px-4">
-                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">FARMER'S VOICE</h3>
+                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">FARMER`S VOICE</h3>
                     <p className="mb-6 w-3/4">
                         KILIMO MEDIA INTERNATIONAL (KIMI)
                         <br />
