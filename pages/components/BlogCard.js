@@ -32,3 +32,5 @@ export const BlogList = ({ posts, image }) => {
             </div></div>
     );
 };
+
+export default BlogList
