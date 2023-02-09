@@ -15,13 +15,13 @@ export const BlogCard = ({ title, body, image }) => {
     );
 };
 
-export const BlogList = ({ posts, image }) => {
+export const BlogList = ({ posts }) => {
     console.log(posts)
     return (
         <div className="flex w-full flex-col top-60 relative justify-center items-center">
             <h1 className="text-6xl font-bold">Latest News</h1>
         <div className="grid grid-cols-1 w-3/4 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {posts.map(post => (
+            {posts && posts.map(post => (
                 <BlogCard
                     key={post.id}
                     title={post.title}
