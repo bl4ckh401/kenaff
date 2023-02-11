@@ -8,7 +8,7 @@ function FarmersInstitute() {
         <Parallax/>
         <div className='flex flex-row justify-center items-center mt-10'>
             <div className='w-full flex justify-center items-center'>
-                  <Image src='/WebsitePhotos/Fj_9AcLWQAAm8gP.jpeg' width={800} height={400} />
+                  <Image src='/WebsitePhotos/Fj_9AcLWQAAm8gP.jpeg' width={800} height={400} alt='Farmers Institute' />
             </div>
               <div className='w-full flex justify-center flex-col items-center'>
                   <p className='p-4'>KENAFF believes that Kenya`s agricultural sector has a lot of untapped potential. The many opportunities in the crops, livestock, fisheries and forests and forestry products can provide millions of unemployed/underemployed Kenyans with viable pathways to quality livelihoods and wealth creation

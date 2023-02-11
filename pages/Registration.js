@@ -36,7 +36,7 @@ const CountyFarmersAssociations = () => (
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-indigo-700">COUNTY FARMERS ASSOCIATIONS</div>
             <p className="text-gray-700 text-base">
-                The smallest federation's unit at the ward level is made up of at least 15 common interest groups (C.I.Gs) that are registered with the social development office. At least four wards form the sub-county branches form the county farmer's.
+                The smallest federation`s unit at the ward level is made up of at least 15 common interest groups (C.I.Gs) that are registered with the social development office. At least four wards form the sub-county branches form the county farmer`s.
             </p>
         </div>
         <div className="px-6 py-4 border-t border-gray-400">
@@ -67,7 +67,7 @@ const AffiliateMembers = () => (
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-indigo-700">AFFILIATE MEMBERS</div>
             <p className="text-gray-700 text-base">
-                Affiliate members are individuals or organizations who support the objectives and activities of the federation but do not meet the membership criteria of common interest groups or county farmer's associations.
+                Affiliate members are individuals or organizations who support the objectives and activities of the federation but do not meet the membership criteria of common interest groups or county farmer`s associations.
             </p>
         </div>
         <div className="px-6 py-4 border-t border-gray-400">

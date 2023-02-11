@@ -31,7 +31,7 @@ const Programmes = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
                 {allProgrammes.map(programme => (
                     <div key={programme.id} className="max-w-sm rounded overflow-hidden shadow-lg">
-                        <img className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
+                        <Image width={600} height={600} className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{programme.title}</div>
                             <p className="text-gray-700 text-base">{programme.date}</p>
@@ -50,7 +50,7 @@ const Programmes = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
                 {recentProgrammes.map(programme => (
                     <div key={programme.id} className="max-w-sm rounded overflow-hidden shadow-lg">
-                        <img className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
+                        <Image width={600} height={600} className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{programme.title}</div>
                             <p className="text-gray-700 text-base">{programme.date}</p>
@@ -69,7 +69,7 @@ const Programmes = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
                 {pastProgrammes.map(programme => (
                     <div key={programme.id} className="max-w-sm rounded overflow-hidden shadow-lg">
-                        <img className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
+                        <Image width={600} height={600} className="w-full" src="https://via.placeholder.com/300x200" alt="Programme" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{programme.title}</div>
                             <p className="text-gray-700 text-base">{programme.date}</p>

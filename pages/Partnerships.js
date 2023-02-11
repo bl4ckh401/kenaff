@@ -181,7 +181,7 @@ const Partnerships = () => (
                     className="bg-white rounded shadow-lg p-6"
                     key={index}
                 >
-                    <img src={partner.logo} alt={partner.name} className="w-full mb-4" />
+                    <Image width={400} height={400} src={partner.logo} alt={partner.name} className="w-full mb-4" />
                     <h2 className="text-lg font-bold text-indigo-700 mb-2">{partner.name}</h2>
                 </a>
             ))}
