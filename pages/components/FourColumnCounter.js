@@ -33,7 +33,7 @@ const Counter = ({ number }) => {
 
 const FourColumnCounter = () => {
     return (
-        <div className="grid bg-green-500 min-h-32 text-white top-60 relative grid-cols-4 gap-4">
+        <div className="grid bg-green-500 min-h-32 text-white md:top-60 h-32 justify-center items-center relative grid-cols-4 gap-4">
             <Counter number={100} />
             <Counter number={200} />
             <Counter number={300} />

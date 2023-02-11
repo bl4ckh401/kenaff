@@ -45,8 +45,8 @@ const Projects = () => {
 
 
     return (
-        <div className="container top-60 relative flex justify-center items-center flex-col w-full mx-auto p-4">
-            <h1 className="text-6xl font-bold mb-4">Selected Projects</h1>
+        <div className="container md:top-60 relative flex justify-center items-center flex-col w-full mx-auto p-4">
+            <h1 className="text-6xl text-center font-bold mb-4">Selected Projects</h1>
             {projects.length === 0 ? (
                 <p>Loading...</p>
             ) : (

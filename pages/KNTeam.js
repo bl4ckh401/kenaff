@@ -6,64 +6,84 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 const KNTeam = () => {
     const teamMembers = [
         {
-            name: "John Doe",
-            position: "CEO",
-            image: "/images/Member1.jpeg",
+            name: "Prof.Kaburu M_Ribu",
+            position: "KENAFF National Board Chairman",
+            image: "/WebsitePhotos/NationalBoard/ProfKaburuM_Ribu.jpeg",
         },
         {
-            name: "Jane Doe",
-            position: "COO",
-            image: "/images/member2.jpeg",
+            name: "Wachira Kaguongo",
+            position: " KENAFF Deputy Chairperson",
+            image: "/WebsitePhotos/NationalBoard/WachiraKaguongo.jpeg",
         },
         {
-            name: "Bob Smith",
-            position: "CTO",
-            image: "/images/Member3.jpeg",
+            name: "Dr.Daniel M M_Mailuta",
+            position: "Chief Executive Officer",
+            image: "/WebsitePhotos/NationalBoard/DrDanielMM_Mailuta.jpeg",
         },
         {
-            name: "John Doe",
-            position: "CEO",
-            image: "/images/Member1.jpeg",
+            name: "Mrs.Ruth Kemboi",
+            position: "National Treassurer, Reggional Representative North Rift",
+            image: "/WebsitePhotos/NationalBoard/MrsRuthKemboi.jpeg",
         },
         {
-            name: "Jane Doe",
-            position: "COO",
-            image: "/images/member2.jpeg",
+            name: "Miss Susan Rotich",
+            position: "KENAFF Women Summit Representative",
+            image: "/WebsitePhotos/NationalBoard/MissSusanRotich.jpeg",
         },
         {
-            name: "Bob Smith",
-            position: "CTO",
-            image: "/images/Member3.jpeg",
+            name: "Miss Joy Makena Kinyua",
+            position: "KENAFF National Youth Summit Representative",
+            image: "/WebsitePhotos/NationalBoard/MissJoyMakenaKinyua.jpeg",
         },
         {
-            name: "John Doe",
-            position: "CEO",
-            image: "/images/Member1.jpeg",
+            name: "Major (Rtd) Daniel Mwania",
+            position: "Eastern Region Representative",
+            image: "/WebsitePhotos/NationalBoard/MajorRtdDanielMwania.jpeg",
         },
         {
-            name: "Jane Doe",
-            position: "COO",
-            image: "/images/member2.jpeg",
+            name: "Mrs.Rosemary Onyango",
+            position: "Lake Region Representative",
+            image: "/WebsitePhotos/NationalBoard/MrsRosemaryOnyango.jpeg",
         },
         {
-            name: "Bob Smith",
-            position: "CTO",
-            image: "/images/Member3.jpeg",
+            name: "Mr.Dubat Ali Amey",
+            position: "North Eastern Regional Representative",
+            image: "/WebsitePhotos/NationalBoard/MrDubatAliAmey.jpeg",
+        },
+        {
+            name: "Mrs. Grace Wairimu Ngambi",
+            position: "Mount Kenya East Representative",
+            image: "/WebsitePhotos/NationalBoard/MrsGraceWairimuNgambi.jpeg",
+        },
+        {
+            name: "Mr. Livingstone Adweru Osuru",
+            position: "Western Region Representative",
+            image: "/WebsitePhotos/NationalBoard/MrLivingstoneAdweruOsuru.jpeg",
+        },
+        {
+            name: "Mrs. Evangeline Mcharo Kiseu",
+            position: "Regional  Representative Coast Region",
+            image: "/WebsitePhotos/NationalBoard/MrsEvangelineMcharoKiseu.jpeg",
+        },
+        {
+            name: "Mr. Luke Kipkemei Kessei",
+            position: "SOUTH RIFT Regional Representative",
+            image: "/WebsitePhotos/NationalBoard/MrLukeKipkemeiKessei.jpeg",
         },
     ];
 
     return (
-        <div className="min-h-screen p-10">
+        <div className="py-10 w-full">
             <Parallax/>
             <h1 className="text-2xl font-medium text-center text-gray-700">
                 Our Team
             </h1>
-            <div className="grid grid-cols-5 gap-10 flex-wrap" style={{ height:'540px' }}>
+            <div className="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-5 gap-10">
                 
                 {teamMembers.map((member) => (
                     <div
                         key={member.name}
-                        className="w-full mt-10 h-full relative text-center"
+                        className="w-full mt-10 h-96 relative text-center"
                     >
                         <div className="relative flex flex-col h-full bg-cover bg-center" style={{ backgroundImage: `url(${member.image})` }}>
                         <div className=" w-full bg-black h-full z-10 items-center opacity-0 hover:bg-black hover:opacity-70 flex justify-center flex-col flex-wrap">

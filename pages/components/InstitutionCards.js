@@ -3,7 +3,7 @@ import React from 'react';
 
 const InstitutionCards = () => {
     return (
-        <div className="flex z-0 flex-row top-3/4 absolute flex-wrap w-screen justify-center bg-transparent items-start">
+        <div className="flex z-0 relative top-0 flex-row lg:top-3/4 lg:absolute flex-wrap w-screen justify-center bg-transparent items-start">
             <div className="w-96 rounded-lg justify-center overflow-hidden  m-4">
                 <Image src="/WebsitePhotos/FawJE-eXEAAafGC.jpeg" width={400} height={400} alt="institution" className="w-full h-full object-cover" />
                 <div className="px-6 py-4 flex-col flex bg-white justify-center text-center items-center  ">

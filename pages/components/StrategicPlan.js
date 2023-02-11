@@ -58,11 +58,11 @@ const FaqItem = ({ question, answer, index, activeIndex, setActiveIndex }) => {
 const StrategicPlan = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     return (
-        <div className="container w-full top-60 relative mx-auto px-4 py-16">
+        <div className="container w-full md:top-60 relative mx-auto px-4 py-16">
             <h1 className="text-3xl font-medium text-center text-black">
                 Strategic Plan 2022-2026
             </h1>
-            <div className='flex flex-row px-4 py-16'>
+            <div className='flex flex-col md:flex-row px-4 py-16'>
                 <Image
                     className="w-full h-full object-cover rounded-lg"
                     src='/WebsitePhotos/WhatsAppImage2023-02-07at7.06.58PM.jpeg'

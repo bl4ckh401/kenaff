@@ -25,11 +25,11 @@ const ContactUs = () => {
             <Parallax/>
             <h1 className="text-4xl font-bold text-center">Contact Us</h1>
             
-            <div className="flex w-3/4 mx-auto flex-row justify-center items-center
+            <div className="flex md:w-3/4 w-full mx-auto flex-col md:flex-row justify-center items-center
             ">
-                <form onSubmit={handleSubmit} className="w-1/2 p-4">
-                    <div className="flex flex-col justify-center p-4 rounded-lg shadow-lg bg-white items-center w-3/4">
-                        <div className="flex flex-col md:flex-row  md:items-center md:justify-between">
+                <form onSubmit={handleSubmit} className="md:w-1/2 w-full p-4">
+                    <div className="flex flex-col justify-center p-4 rounded-lg shadow-lg bg-white items-center w-full md:w-3/4">
+                        <div className="flex flex-col md:flex-row w-full md:items-center md:justify-between">
                             <div className="w-full md:w-1/2 mt-4 md:mt-0">
                                 <label
                                     htmlFor="name"

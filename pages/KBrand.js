@@ -8,11 +8,11 @@ const KBrand = () => (
             <title>KBrand - KENAF Brands</title>
         </Head>
         <Parallax/>
-        <div className="flex justify-center items-start">
-            <div className="w-2/3 bg-whiteoverflow-y-scroll">
+        <div className="flex justify-center items-start flex-col">
+            <div className="md:w-2/3 w-full bg-white">
                 <h1 className="text-2xl font-bold mb-6">Home</h1>
                 <h2 className="text-xl font-bold mb-6">KENAF Brands</h2>
-                <div className="flex justify-center items-center flex-row">
+                <div className="flex justify-center w-full items-center flex-col md:flex-row">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="conservation image" className="mb-6" />
                 <div className="p-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">CONSERVATION</h3>
@@ -26,7 +26,7 @@ const KBrand = () => (
                 </div>
                 
                 </div>
-                <div className="flex justify-center items-center flex-row">
+                <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="education and technology image" className="mb-6" />
                     <div className="p-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">EDUCATION & TECHNOLOGY</h3>   
@@ -39,7 +39,7 @@ const KBrand = () => (
 
                     </div>
                 </div>
-                <div className="flex justify-center items-center flex-row">
+                <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
                     <div className="p-4">
                         <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">LUXURY</h3>
@@ -54,7 +54,7 @@ const KBrand = () => (
                      
                 </div>
                
-                <div className="flex justify-center items-center flex-row">
+                <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
                     <div className="p-4">
 
@@ -68,7 +68,7 @@ const KBrand = () => (
                     </div>
                 </div>
                 
-                <div className="flex justify-center items-center flex-row">
+                <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="farmer's voice image" className="float-left mb-6 h-full" />
                 <div className="px-4">
                     <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">FARMER`S VOICE</h3>
@@ -77,14 +77,14 @@ const KBrand = () => (
                         <br />
                         Kilimo Media International (KiMI) is a farmer centered, media based agricultural advisory service provider whose aim is to make agricultural information
                     </p>
-                        <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
+                    <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
                 </div>
                 
                 </div>
                 
         </div>
 
-            <div className="w-1/4 bg-white p-6">
+            <div className="md:w-1/4 w-full bg-white p-6">
                 <h2 className="text-xl font-bold mb-6">Subscribe to our Newsletter</h2>
                 <form className="mb-6">
                     <input

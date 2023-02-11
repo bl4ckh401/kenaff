@@ -112,9 +112,9 @@ const StrategicAlignment = () => {
     const [showAll, setShowAll] = useState(false);
 
     return (
-        <div className="container top-60 relative flex justify-center items-center flex-col w-full mx-auto p-4">
+        <div className="container md:top-60 relative flex justify-center items-center flex-col w-full mx-auto p-4">
             <h1 className="text-3xl font-bold mb-10">Strategic Alignment</h1>
-            <div className="flex-wrap flex flex-row justify-center items-center">
+            <div className="flex-wrap flex w-full flex-col md:flex-row justify-center items-center">
                 {(showAll ? SDGs.map(sdg => (
                     <motion.div key={sdg.id}
                         whileHover={{ scale: 1.05 }}
@@ -127,7 +127,7 @@ const StrategicAlignment = () => {
                     </motion.div>)) :SDGs.slice(0, 3).map(sdg => (
                     <motion.div key={sdg.id} 
                      whileHover={{ scale: 1.05 }}
-                     className="bg-white mt-2 mx-2 rounded-lg w-3/12 flex flex-wrap flex-col justify-center items-center shadow-lg p-10 cursor-pointer">
+                     className="bg-white mt-2 mx-2 rounded-lg md:w-3/12 w-full flex flex-wrap flex-col justify-center items-center shadow-lg p-10 cursor-pointer">
                         <Image width={250} height={250} src={sdg.image} alt={sdg.title} className="h-32 w-32 mb-5" />
                         <h2 className="text-lg text-center font-bold">{sdg.title}</h2>
                         <div className="pointer-events-none bg-white justify-center items-center flex flex-col">

@@ -62,12 +62,12 @@ function OurProfile() {
     };
 
   return (
-    <div className="relative top-60 bg-cover bg-center" style={{ backgroundImage: 'url(https://image.shutterstock.com/shutterstock/photos/1843204999/display_1500/stock-photo-ngo-caucasian-young-man-showing-in-his-phone-new-developments-to-an-african-villager-1843204999.jpg)' }}>
+    <div className="relative lg:top-60 bg-cover bg-center" style={{ backgroundImage: 'url(https://image.shutterstock.com/shutterstock/photos/1843204999/display_1500/stock-photo-ngo-caucasian-young-man-showing-in-his-phone-new-developments-to-an-african-villager-1843204999.jpg)' }}>
           <div className="h-full bg-green-500 py-4 opacity-90 flex justify-start flex-col items-center">
               <h1 className='text-6xl font-bold text-white'>Our Profile</h1>
-              <p className='text-white py-4 text-2xl'>Our Vision is to provide an inclusive, strong, influential and respected National Farmers’ Organization.</p>
+              <p className='text-white py-4 text-2xl'>Our Vision is to provide an inclusive, strong, influential and respected National Farmers` Organization.</p>
               <button className='text-white py-4 rounded-l-full rounded-r-full px-2 text-2xl bg-blue-500'>Our Work</button>
-              <div className='w-full flex flex-row'>
+              <div className='w-full flex md:flex-row flex-col'>
                 <div className='flex justify-center w-full items-center'>
                       <h1 className='text-6xl w-full text-center font-bold text-white'>#Zero Hunger</h1>
                 </div>
