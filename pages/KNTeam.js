@@ -78,7 +78,7 @@ const KNTeam = () => {
             <h1 className="text-2xl font-medium text-center text-gray-700">
                 Our Team
             </h1>
-            <div className="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-5 gap-10">
+            <div className="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-5 md:gap-10">
                 
                 {teamMembers.map((member) => (
                     <div

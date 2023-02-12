@@ -6,7 +6,7 @@ function FarmersInstitute() {
   return (
     <div className=''>
         <Parallax/>
-        <div className='flex flex-row justify-center items-center mt-10'>
+        <div className='flex flex-col lg:flex-row justify-center items-center mt-10'>
             <div className='w-full flex justify-center items-center'>
                   <Image src='/WebsitePhotos/Fj_9AcLWQAAm8gP.jpeg' width={800} height={400} alt='Farmers Institute' />
             </div>

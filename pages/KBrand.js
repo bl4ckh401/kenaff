@@ -14,13 +14,13 @@ const KBrand = () => (
                 <h2 className="text-xl font-bold mb-6">KENAF Brands</h2>
                 <div className="flex justify-center w-full items-center flex-col md:flex-row">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="conservation image" className="mb-6" />
-                <div className="p-4">
-                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">CONSERVATION</h3>
-                    <p className="mb-6 w-3/4">
-                        FARM FORESTRY AND AFFORESTATION PROGRAMME
-                        <br />
-                        The programme`s development objective, enhancing the incomes and livelihoods of Kenyan smallholder farmers through tree value chains is premised on the mutualism between agriculture and forestry
-                    </p>
+                    <div className="px-4 lg:w-3/4 w-full text-center">
+                        <h3 className="text-lg text-green-500 italic w-full px-4 py-2 text-center rounded-2xl mb-2">CONSERVATION</h3>
+                        <p className="mb-6 lg:w-3/4 w-full text-center">
+                            FARM FORESTRY AND AFFORESTATION PROGRAMME
+                            <br />
+                            The programme`s development objective, enhancing the incomes and livelihoods of Kenyan smallholder farmers through tree value chains is premised on the mutualism between agriculture and forestry
+                        </p>
                     <button className="text-lg text-white italic w-fit bg-green-500 px-4 py-2 rounded-2xl mb-2">Visit Site</button> 
    
                 </div>
@@ -28,9 +28,9 @@ const KBrand = () => (
                 </div>
                 <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="education and technology image" className="mb-6" />
-                    <div className="p-4">
-                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">EDUCATION & TECHNOLOGY</h3>   
-                    <p className="mb-6 w-3/4">
+                    <div className="px-4 lg:w-3/4 w-full text-center">
+                        <h3 className="text-lg text-green-500 italic w-full px-4 py-2 text-center rounded-2xl mb-2">EDUCATION & TECHNOLOGY</h3>   
+                        <p className="mb-6 lg:w-3/4 w-full text-center">
                         KENAFF VIDEO LIBRARY! KNOWLEDGE FOR PRACTICAL AGRICULTURE
                         <br />
                         On this website farmers will find free, high-quality learning videos and texts with practical use for their daily work in agriculture.
@@ -41,9 +41,9 @@ const KBrand = () => (
                 </div>
                 <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
-                    <div className="p-4">
-                        <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">LUXURY</h3>
-                        <p className="mb-6 w-3/4">
+                    <div className="px-4 lg:w-3/4 w-full text-center">
+                        <h3 className="text-lg text-green-500 italic w-full px-4 py-2 text-center rounded-2xl mb-2">LUXURY</h3>
+                        <p className="mb-6 lg:w-3/4 w-full text-center">
                             KILIMO TALII
                         <br />
                         Kilimo Talii is a fabulous all-inclusive rural retreat, It`s best for family holidays and an ideal place for chilling out, parties and social gatherings. We have expansive well-manicured gardens that can carry out all sorts of events; weddings, birthday parties, graduations etc
@@ -56,10 +56,10 @@ const KBrand = () => (
                
                 <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="luxury image" className="mb-6" />
-                    <div className="p-4">
+                    <div className="px-4 lg:w-3/4 w-full text-center">
 
-                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">LUXURY</h3>
-                    <p className="mb-6 w-3/4">
+                    <h3 className="text-lg text-green-500 italic w-full px-4 py-2 text-center rounded-2xl mb-2">LUXURY</h3>
+                    <p className="mb-6 lg:w-3/4 w-full text-center">
                         KILIMO GRAND RESORT
                         <br />
                         It`s one of those places in Nairobi where the refined luxury of internationally acclaimed cuisine and exceptional room amenities mingles effortlessly with lush vegetation amidst a huge swimming pool and kids garden. This is where you can`t help but celebrate living
@@ -70,9 +70,9 @@ const KBrand = () => (
                 
                 <div className="flex justify-center items-center flex-col md:flex-row w-full">
                     <Image width={400} height={400} src="/DamacrestPPL.webp" alt="farmer's voice image" className="float-left mb-6 h-full" />
-                <div className="px-4">
-                    <h3 className="text-lg text-white italic w-fit bg-green-300 px-4 py-2 rounded-2xl mb-2">FARMER`S VOICE</h3>
-                    <p className="mb-6 w-3/4">
+                    <div className="px-4 lg:w-3/4 w-full text-center">
+                    <h3 className="text-lg text-green-500 italic w-full px-4 py-2 text-center rounded-2xl mb-2">FARMER`S VOICE</h3>
+                    <p className="mb-6 lg:w-3/4 w-full text-center">
                         KILIMO MEDIA INTERNATIONAL (KIMI)
                         <br />
                         Kilimo Media International (KiMI) is a farmer centered, media based agricultural advisory service provider whose aim is to make agricultural information
